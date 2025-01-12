@@ -4,6 +4,7 @@ import TaskManager from "./components/TaskManager.tsx";
 import CounterApp from "./components/CounterApp.tsx";
 import UserProfile from "./components/UserProfile.tsx";
 import TaskTracker from "./components/TaskTracker.tsx";
+import PropsProject from "./components/PropsProject.tsx";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <CounterApp />
       <UserProfile />
       <TaskTracker />
+      <PropsProject />
     </div>
   );
 }
