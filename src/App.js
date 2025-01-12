@@ -5,7 +5,7 @@ import CounterApp from "./components/CounterApp.tsx";
 import UserProfile from "./components/UserProfile.tsx";
 import TaskTracker from "./components/TaskTracker.tsx";
 import PropsProject from "./components/PropsProject.tsx";
-
+import WeatherApp from "./components/WeatherApp.tsx";
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
       <UserProfile />
       <TaskTracker />
       <PropsProject />
+      <WeatherApp />
     </div>
   );
 }
